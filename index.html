@@ -1,62 +1,78 @@
 <!DOCTYPE HTML>
- <html lang="pt-br">
+<html lang="pt-br">
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>AceSite</title>
-    <link  rel="stylesheet" type="text/css" href="style.css"/>
-    <script src="scripts/seu-script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/fonte.js"></script>
 </head>
-<body>  
-	 <header id="cabecalho">
-         <h1>Ace<span>Site</span></h1>
-	</header>
+
+<body class="acessibilidade">
+    <header id="cabecalho">
+        <h1>Ace<span>Site</span></h1>
+    </header>
     <nav id="menu">
-	        <ul>
-                <li><a>Home</a></li>
-                <li><a>Artigos</a></li>
-                <li><a>Acessibilidade</a></li>
-                <li><a>Contato</a></li>
-	        </ul>
-	    </nav>
-    
-    <main id= "main">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Artigos</a></li>
+            <li><a>Acessibilidade</a></li>
+            <li><a>Contato</a></li>
+        </ul>
+
+
+    </nav>
+    <div id="btnAcessibilidade">
+        <button onClick="fonte('a');">A +</button> <!-- Botão + -->
+        <button onClick="fonte('d');">A -</button> <!-- Botão - -->
+    </div>
+    <main id="main">
+
         <section>
             <article class="conteudo">
+
                 <header>
-                    <h2>ACESSIBILIDADE NA WEB</h2>
+                    <h2>ACESSIBILIDADE NA WEB </h2>
                 </header>
                 <img src="imagens/acessibilidadeImg1.jpg" alt="imagem com os símbolos de acessibilidade">
-                <p>Todo profissional qualificado para desenvolver websites utiliza princípios de design que tornam o site funcional e fácil de navegar, ou seja, usa princípios de usabilidade. 
-Além de visualmente atraente, um website deve ser simples, intuitivo e permitir que os usuários acessem a informação rápida e facilmente.
-Um website acessível vai um pouco além.</p>
+                <p>Todo profissional qualificado para desenvolver websites utiliza princípios de design que tornam o site funcional e fácil de navegar, ou seja, usa princípios de usabilidade.Além de visualmente atraente, um website deve ser simples, intuitivo e permitir que os usuários
+                acessem a informação rápida e facilmente.
+                Um website acessível vai um pouco além.</p>
                 <p><a href="acessibilidadeNaWeb.html">leia mais...</a></p>
+            </article>
+
+            <article class="conteudo">
+
+                <header>
+                    <h2>O QUE É ACESSIBILIDADE?</h2>
+                    <img src="imagens/acessibilidadeImg3.jpg" alt="imagem contendo símbolos de acessibilidade">
+                </header>
+                <p> Existem muitas definições de acessibilidade. A seguir, apresentaremos algumas delas, destacando os aspectos mais relevantes para nosso propósito. Ao final, será proposta uma definição que reúne os aspectos destacados.
+                </p>
+                <p><a href="oQueAcessibilidade.html">leia mais...</a></p>
             </article>
 
             <article class="conteudo">
                 <header>
                     <h2>TÍTULO TESTE LOREM</h2>
-                <img src="imagens/test2.jpg" alt="imagem teste">
+                    <img src="imagens/test3.webp" alt="imagem teste">
                 </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </article>
-            
-             <article class="conteudo">
-                <header>
-                    <h2>TÍTULO TESTE LOREM</h2>
-                   <img src="imagens/test3.webp" alt="imagem teste">
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
             </article>
         </section>
 
         <aside id="menu-lateral">
             <h2>MENU LATERAL</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
         </aside>
     </main>
-	<footer>
-	    <p>Copyrigth AceSite 2019 &copy;</p>
-	</footer>
+    <footer>
+        <p>Copyrigth AceSite 2019 &copy;</p>
+    </footer>
 </body>
+
 </html>
